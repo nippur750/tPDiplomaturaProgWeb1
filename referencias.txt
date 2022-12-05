@@ -1,0 +1,675 @@
+https://harnishdesign.net/demo/html/callum/index-standard-menu.html
+
+
+
+
+
+HTML
+
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+<link href="images/favicon.png" rel="icon">
+<title>Callum - Personal Portfolio HTML Template</title>
+<meta name="description" content="Callum is responsive bootstrap 5 one page personal portfolio html template.">
+<meta name="author" content="harnishdesign.net">
+
+<!-- Web Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" type="text/css">
+
+<!-- Stylesheet
+============================== -->
+<!-- Animate -->
+<link rel="stylesheet" type="text/css" href="vendor/animate/animate.min.css">
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!-- Font Awesome Icon -->
+<link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/all.min.css">
+<!-- Owl Carousel -->
+<link rel="stylesheet" type="text/css" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+<!-- Magnific Popup -->
+<link rel="stylesheet" type="text/css" href="vendor/magnific-popup/magnific-popup.min.css">
+<!-- Custom Stylesheet -->
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<!-- Colors Css -->
+
+<link id="color-switcher" type="text/css" rel="stylesheet" href="#"></head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+<!-- Preloader -->
+<div class="preloader" style="display: none;">
+  <div class="lds-ellipsis" style="display: none;">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<!-- Preloader End --> 
+
+<!-- Document Wrapper   
+=============================== -->
+<div id="main-wrapper"> 
+  
+  <!-- Header -->
+  <header id="header" class="sticky-top-slide"> 
+    <!-- Navbar -->
+    <nav class="primary-menu navbar navbar-expand-lg text-uppercase navbar-line-under-text fw-600">
+      <div class="container position-relative">
+        <div class="col-auto col-lg-2 d-inline-flex ps-lg-0"> 
+          <!-- Logo --> 
+          <a class="logo" href="index.html" title="Callum"> <img src="images/logo.png" alt="Callum"> </a> 
+          <!-- Logo End --> 
+        </div>
+        <div class="col col-lg-8 navbar-accordion px-0">
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav"><span></span><span></span><span></span></button>
+          <div id="header-nav" class="collapse navbar-collapse justify-content-center">
+            <ul class="navbar-nav">
+			  <li class="nav-item"><a class="nav-link smooth-scroll active" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#services">Services</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#resume">Resume</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#faq">FAQ</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#testimonial">Client</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-auto col-lg-2 d-flex justify-content-end ps-0">
+		  <ul class="social-icons">
+		  <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="http://www.facebook.com/" target="_blank" title="" data-bs-original-title="Facebook"><i class="fab fa-facebook"></i></a></li>
+          <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="http://www.twitter.com/" target="_blank" title="" data-bs-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+		  <li class="social-icons-instagram"><a data-bs-toggle="tooltip" href="http://www.instagram.com/" target="_blank" title="" data-bs-original-title="Instagram"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End --> 
+  </header>
+  <!-- Header End -->
+  
+  <!-- Content
+  ============================================= -->
+  <div id="content" role="main"> 
+    
+    <!-- Intro
+    ============================================= -->
+    <section id="home" class="bg-primary d-flex fullscreen-with-header position-relative">
+      <div class="container my-auto py-5 py-lg-0">
+        <div class="row py-4">
+          <div class="col-lg-7 text-center text-lg-start align-self-center order-1 order-lg-0">
+            <h1 class="text-12 fw-300 mb-0 text-uppercase">Hi, I'm a Freelancer</h1>
+            <div class="typed-strings" style="display: none;">
+              <p>Designer</p>
+              <p>Developer</p>
+              <p>Callum</p>
+            </div>
+            <h2 class="text-21 fw-600 text-uppercase mb-0 ms-n1"><span class="typed">Designer</span><span class="typed-cursor">|</span></h2>
+            <p class="text-5">based in Los Angeles, USA.</p>
+            <a href="#portfolio" class="btn btn-dark rounded-0 smooth-scroll mt-3">View My Works</a><a href="#contact" class="btn btn-link text-dark smooth-scroll mt-3">Contact Me<span class="text-4 ms-2"><i class="far fa-arrow-alt-circle-down"></i></span></a> </div>
+          <div class="col-lg-5 text-center align-self-center mb-4 mb-lg-0 order-0 order-lg-1">
+            <div class="bg-light rounded-pill d-inline-block p-3 shadow-lg wow zoomIn" style="visibility: visible;"> <img class="img-fluid rounded-pill d-block" src="images/web-developer.jpg" title="I'm Callum" alt=""></div>
+          </div>
+        </div>
+      </div>
+      <a href="#about" class="scroll-down-arrow text-dark smooth-scroll"><span class="animated"><i class="fas fa-arrow-down"></i></span></a> </section>
+    <!-- Intro end --> 
+    
+    <!-- About
+    ============================================= -->
+    <section id="about" class="section">
+      <div class="container"> 
+        <!-- Heading -->
+        <p class="text-center mb-2 wow fadeInUp" style="visibility: hidden; animation-name: none;"><span class="bg-primary text-dark px-2">About Me</span></p>
+        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp" style="visibility: hidden; animation-name: none;">Know Me More</h2>
+        <!-- Heading end-->
+        
+        <div class="row">
+          <div class="col-lg-8 text-center text-lg-start wow fadeInUp" style="visibility: hidden; animation-name: none;">
+            <h2 class="text-8 fw-400 mb-3">Hi, I'm <span class="fw-700 border-bottom border-3 border-primary">Callum Smith</span></h2>
+            <p class="text-5">I'm a designer &amp; developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets client’s requirements is our moto.</p>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <div class="featured-box style-4">
+              <div class="featured-box-icon text-25 fw-500 bg-primary rounded-circle"><span class="wow heartBeat" data-wow-delay="1.3s" style="visibility: hidden; animation-delay: 1.3s; animation-name: none;">22</span></div>
+              <h3 class="text-7 wow rubberBand" data-wow-delay="2s" style="visibility: hidden; animation-delay: 2s; animation-name: none;">Years of <span class="fw-700">Experiance</span></h3>
+            </div>
+          </div>
+        </div>
+        <div class="row gy-3 mt-4">
+          <div class="col-6 col-lg-3 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+            <p class="text-muted fw-500 mb-0">Name:</p>
+            <p class="text-4 text-dark fw-600 mb-0">Callum Smith</p>
+          </div>
+          <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <p class="text-muted fw-500 mb-0">Email:</p>
+            <p class="text-4 fw-600 mb-0"><a class="link-dark" href="">chat@callum.com</a></p>
+          </div>
+          <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+            <p class="text-muted fw-500 mb-0">Date of birth:</p>
+            <p class="text-4 text-dark fw-600 mb-0">11 November, 1987</p>
+          </div>
+          <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
+            <p class="text-muted fw-500 mb-0">From:</p>
+            <p class="text-4 text-dark fw-600 mb-0">Los Angeles, USA.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About end --> 
+    
+    <!-- Services
+    ============================================= -->
+    <section id="services" class="section bg-light">
+      <div class="container"> 
+        <!-- Heading -->
+        <p class=" text-center mb-2 wow fadeInUp" style="visibility: hidden; animation-name: none;"><span class="bg-primary text-dark px-2">What I Do?</span></p>
+        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp" style="visibility: hidden; animation-name: none;">How I can help your next project</h2>
+        <!-- Heading end-->
+        
+        <div class="row gy-5 mt-5">
+          <div class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+            <div class="featured-box text-center px-md-4">
+              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-palette"></i> </div>
+              <h3 class="text-6 fw-600 mb-3">Graphic Design</h3>
+              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+            <div class="featured-box text-center px-md-4">
+              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-desktop"></i></div>
+              <h3 class="text-6 fw-600 mb-3">Web Design</h3>
+              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+            <div class="featured-box text-center px-md-4">
+              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-pencil-ruler"></i> </div>
+              <h3 class="text-6 fw-600 mb-3">Web Development</h3>
+              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+            <div class="featured-box text-center px-md-4">
+              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-paint-brush"></i> </div>
+              <h3 class="text-6 fw-600 mb-3">Brand Identity</h3>
+              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+            <div class="featured-box text-center px-md-4">
+              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-chart-area"></i> </div>
+              <h3 class="text-6 fw-600 mb-3">Business Analysis</h3>
+              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. </p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+            <div class="featured-box text-center px-md-4">
+              <div class="featured-box-icon text-primary text-13"> <i class="fas fa-bullhorn"></i> </div>
+              <h3 class="text-6 fw-600 mb-3">Digital Marketing</h3>
+              <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services end --> 
+    
+    <!-- Resume
+    ============================================= -->
+    <section id="resume" class="section">
+      <div class="container"> 
+        <!-- Heading -->
+        <p class=" text-center mb-2 wow fadeInUp" style="visibility: hidden; animation-name: none;"><span class="bg-primary text-dark px-2">Resume</span></p>
+        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp" style="visibility: hidden; animation-name: none;">A summary of My Resume</h2>
+        <!-- Heading end-->
+        
+        <div class="row g-5 mt-5"> 
+          <!-- My Education -->
+          <div class="col-lg-6 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+            <h2 class="text-7 fw-600 mb-4 pb-2">My Education</h2>
+            <div class="border-start border-2 border-primary ps-3">
+              <h3 class="text-5">Master in Computer Engineering</h3>
+              <p class="mb-2">Harvard University / 2015 - 2017</p>
+              <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+              <hr class="my-4">
+              <h3 class="text-5">Bachelor in Computer Engineering</h3>
+              <p class="mb-2">University of California / 2014 - 2015</p>
+              <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+              <hr class="my-4">
+              <h3 class="text-5">Computer Science</h3>
+              <p class="mb-2">International University / 2013 - 2014</p>
+              <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+            </div>
+          </div>
+          <!-- My Experience -->
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <h2 class="text-7 fw-600 mb-4 pb-2">My Experience</h2>
+            <div class="border-start border-2 border-primary ps-3">
+              <h3 class="text-5">Sr. Font End Developer</h3>
+              <p class="mb-2">Apple Inc / 2020 - Current</p>
+              <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+              <hr class="my-4">
+              <h3 class="text-5">Jr. Font End Developer</h3>
+              <p class="mb-2">Dribbble Inc / 2018 - 2020</p>
+              <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+              <hr class="my-4">
+              <h3 class="text-5">HTML Developer</h3>
+              <p class="mb-2">Adobe Inc / 2017 - 2018</p>
+              <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- My Skills -->
+        <h2 class="text-7 fw-600 mb-4 pb-2 mt-5 wow fadeInUp" style="visibility: hidden; animation-name: none;">My Skills</h2>
+        <div class="row gx-5">
+          <div class="col-md-6 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+            <p class="fw-500 text-start mb-2">Web Design <span class="float-end">65%</span></p>
+            <div class="progress progress-sm mb-4">
+              <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p class="fw-500 text-start mb-2">HTML/CSS <span class="float-end">95%</span></p>
+            <div class="progress progress-sm mb-4">
+              <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p class="fw-500 text-start mb-2">JavaScript <span class="float-end">80%</span></p>
+            <div class="progress progress-sm mb-4">
+              <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="col-md-6 wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
+            <p class="fw-500 text-start mb-2">React JS <span class="float-end">70%</span></p>
+            <div class="progress progress-sm mb-4">
+              <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p class="fw-500 text-start mb-2">Angular Js <span class="float-end">60%</span></p>
+            <div class="progress progress-sm mb-4">
+              <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p class="fw-500 text-start mb-2">Bootstrap <span class="float-end">99%</span></p>
+            <div class="progress progress-sm mb-4">
+              <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <p class="text-center mt-5 wow fadeInUp" style="visibility: hidden; animation-name: none;"><a href="#" class="btn btn-outline-dark shadow-none rounded-0">Download CV</a></p>
+      </div>
+    </section>
+    <!-- Resume end --> 
+    
+    <!-- Portfolio
+    ============================================= -->
+    <section id="portfolio" class="section bg-light">
+      <div class="container"> 
+        <!-- Heading -->
+        <p class=" text-center mb-2 wow fadeInUp" style="visibility: hidden; animation-name: none;"><span class="bg-primary text-dark px-2">Portfolio</span></p>
+        <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp" style="visibility: hidden; animation-name: none;">Some of my most recent projects</h2>
+        <!-- Heading end--> 
+        
+        <!-- Filter Menu -->
+        <ul class="portfolio-menu nav nav-tabs fw-600 justify-content-start justify-content-md-center border-bottom-0 mb-4 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+          <li class="nav-item"> <a data-filter="*" class="nav-link rounded-0 active" href="">All</a></li>
+          <li class="nav-item"> <a data-filter=".detailed" href="" class="nav-link rounded-0">Detailed</a></li>
+          <li class="nav-item"> <a data-filter=".mockups" href="" class="nav-link rounded-0">Mockups</a></li>
+          <li class="nav-item"> <a data-filter=".youtube" href="" class="nav-link rounded-0">YouTube Videos</a></li>
+          <li class="nav-item"> <a data-filter=".vimeo" href="" class="nav-link rounded-0">Vimeo Videos</a></li>
+        </ul>
+        <!-- Filter Menu end -->
+        <div class="portfolio wow fadeInUp" style="visibility: hidden; animation-name: none;">
+          <div class="row g-4 mt-3 portfolio-filter" style="position: relative; height: 940.234px;">
+            <div class="col-sm-6 col-lg-4 detailed" style="position: absolute; left: 0px; top: 0px;">
+              <div class="portfolio-box">
+                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/project-1.jpg" alt="">
+                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/portfolio-ajax-project-1.html"></a>
+                    <div class="portfolio-overlay-details">
+                      <p class="text-primary text-8"><i class="fas fa-file-alt"></i></p>
+                      <h5 class="text-white text-5">Detailed Project 1</h5>
+                      <span class="text-light">Category</span> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mockups" data-wow-delay="0.2s" style="position: absolute; left: 439.983px; top: 0px;">
+              <div class="portfolio-box">
+                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/project-2.jpg" alt="">
+                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/projects/project-2.jpg"></a>
+                    <div class="portfolio-overlay-details">
+                      <p class="text-primary text-8"><i class="fas fa-image"></i></p>
+                      <h5 class="text-white text-5">Mockups Design 1</h5>
+                      <span class="text-light">Category</span> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 youtube" data-wow-delay="0.3s" style="position: absolute; left: 879.966px; top: 0px;">
+              <div class="portfolio-box">
+                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/project-3.jpg" alt="">
+                  <div class="portfolio-overlay"> <a class="popup-youtube stretched-link" href="https://www.youtube.com/watch?v=PMNnEEEacCg"></a>
+                    <div class="portfolio-overlay-details">
+                      <p class="text-primary text-8"><i class="fas fa-video"></i></p>
+                      <h5 class="text-white text-5">YouTube Video</h5>
+                      <span class="text-light">Category</span> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 vimeo" style="position: absolute; left: 0px; top: 470.117px;">
+              <div class="portfolio-box">
+                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/project-4.jpg" alt="">
+                  <div class="portfolio-overlay"> <a class="popup-vimeo stretched-link" href="https://vimeo.com/259411563"></a>
+                    <div class="portfolio-overlay-details">
+                      <p class="text-primary text-8"><i class="fas fa-video"></i></p>
+                      <h5 class="text-white text-5">Vimeo Video</h5>
+                      <span class="text-light">Category</span> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 detailed" data-wow-delay="0.2s" style="position: absolute; left: 439.983px; top: 470.117px;">
+              <div class="portfolio-box">
+                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/project-5.jpg" alt="">
+                  <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/portfolio-ajax-project-2.html"></a>
+                    <div class="portfolio-overlay-details">
+                      <p class="text-primary text-8"><i class="fas fa-file-alt"></i></p>
+                      <h5 class="text-white text-5">Detailed Project 2</h5>
+                      <span class="text-light">Category</span> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mockups" data-wow-delay="0.3s" style="position: absolute; left: 879.966px; top: 470.117px;">
+              <div class="portfolio-box">
+                <div class="portfolio-img"> <img class="img-fluid d-block" src="images/projects/project-6.jpg" alt="">
+                  <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/projects/project-6.jpg"></a>
+                    <div class="portfolio-overlay-details">
+                      <p class="text-primary text-8"><i class="fas fa-image"></i></p>
+                      <h5 class="text-white text-5">Mockups Design 2</h5>
+                      <span class="text-light">Category</span> </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio end --> 
+    
+    <!-- Call to Action
+    ============================================= -->
+    <section>
+      <div class="hero-wrap">
+        <div class="hero-mask opacity-8 bg-dark"></div>
+        <div class="hero-bg parallax" style="background-image: url(&quot;https://harnishdesign.net/demo/html/callum/images/intro-bg-2.jpg&quot;); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center 2174.07px;"></div>
+        <div class="hero-content section">
+          <div class="container text-center py-5 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+            <h2 class="text-10 fw-600 text-white mb-5">Interested in working with me?</h2>
+            <a href="#contact" class="btn btn-primary rounded-0 smooth-scroll wow rubberBand" data-wow-delay="1s" style="visibility: hidden; animation-delay: 1s; animation-name: none;">Hire Me!</a> </div>
+        </div>
+      </div>
+    </section>
+    <!-- Call to Action end --> 
+    
+    <!-- FAQ
+    ============================================= -->
+    <section id="faq" class="section bg-light">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-lg-6 order-1 order-lg-0 wow fadeInUp" style="visibility: hidden; animation-name: none;"> 
+            <!-- Heading -->
+            <p class="text-center text-lg-start mb-2"><span class="bg-primary text-dark px-2">FAQ</span></p>
+            <h2 class="text-10 fw-600 text-center text-lg-start mb-5">Have any questions?</h2>
+            <!-- Heading end-->
+            <div class="accordion accordion-flush" id="faqTopics">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne"> What is Callum? </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#faqTopics">
+                  <div class="accordion-body"> Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Mutat tacimates id sit. Ridens mediocritatem ius an, eu nec magna imperdiet. </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo"> How Can I Help You? </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#faqTopics">
+                  <div class="accordion-body">
+                    <p>Iisque Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</p>
+                    <p class="mb-0">Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree"> Simple process of workflow? </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#faqTopics">
+                  <div class="accordion-body"> Iisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Mutat tacimates id sit. Ridens mediocritatem ius an, eu nec magna imperdiet. </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree"> Is Callum a Multi-purpose template? </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#faqTopics">
+                  <div class="accordion-body"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree"> Why responsive one page template? </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#faqTopics">
+                  <div class="accordion-body"> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 d-flex align-items-center justify-content-center order-0 order-lg-1 wow fadeIn" data-wow-delay="1s" style="visibility: hidden; animation-delay: 1s; animation-name: none;"> <img class="img-fluid" src="images/faq.png" title="FAQ" alt="faq"> </div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ end --> 
+    
+    <!-- Testimonial
+    ============================================= -->
+    <section id="testimonial" class="section bg-secondary">
+      <div class="container"> 
+        <!-- Heading -->
+        <p class=" text-center mb-2 wow fadeIn" style="visibility: hidden; animation-name: none;"><span class="bg-primary text-dark px-2">Client Speak</span></p>
+        <h2 class="text-10 fw-600 text-white text-center mb-5 wow fadeIn" style="visibility: hidden; animation-name: none;">What Some of my Clients Say</h2>
+        <!-- Heading end-->
+        <div class="row">
+          <div class="col-lg-9 mx-auto wow fadeInUp" style="visibility: hidden; animation-name: none;">
+            <div class="owl-carousel owl-theme owl-light owl-loaded owl-drag" data-autoplay="true" data-loop="true" data-nav="true" data-margin="30" data-slideby="1" data-stagepadding="5" data-items-xs="1" data-items-sm="1" data-items-md="1" data-items-lg="1">
+              
+              
+              
+              
+            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2976px, 0px, 0px); transition: all 0.25s ease 0s; width: 7946px; padding-left: 5px; padding-right: 5px;"><div class="owl-item cloned" style="width: 962px; margin-right: 30px;"><div class="item text-center px-5"> <span class="text-9 text-primary"><i class="fa fa-quote-start"></i></span>
+                <p class="text-5 text-white">“Only trying it out since a few days. But up to now excellent. Seems to work flawlessly. priced simply dummy text of the printing and typesetting industry.”</p>
+                <img class="img-fluid d-inline-block w-auto rounded-circle shadow" src="images/testimonial/client-sm-3.jpg" alt=""> <strong class="d-block text-3 fw-500 text-white">Dennis Jacques</strong> <span class="text-light">Noon Inc</span> </div></div><div class="owl-item cloned" style="width: 962px; margin-right: 30px;"><div class="item text-center px-5"> <span class="text-9 text-primary"><i class="fa fa-quote-start"></i></span>
+                <p class="text-5 text-white">“I have used them twice now. Good rates, very efficient service and priced simply dummy text of the printing and typesetting industry quidam interesset his et. simply dummy text of the printing and typesetting industry. Excellent.”</p>
+                <img class="img-fluid d-inline-block w-auto rounded-circle shadow" src="images/testimonial/client-sm-4.jpg" alt=""> <strong class="d-block text-3 fw-500 text-white">Chris Tom</strong> <span class="text-light">Company CEO from UK</span> </div></div><div class="owl-item" style="width: 962px; margin-right: 30px;"><div class="item text-center px-5"> <span class="text-9 text-primary"><i class="fa fa-quote-start"></i></span>
+                <p class="text-5 text-white">Easy to use, reasonably priced simply dummy text of the printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam possim iriure. simply dummy text of the printing and typesetting industry.”</p>
+                <img class="img-fluid d-inline-block w-auto rounded-circle shadow" src="images/testimonial/client-sm-1.jpg" alt=""> <strong class="d-block text-3 fw-600 text-white">Jay Shah</strong> <span class="text-light">Founder at Icomatic Pvt Ltd</span> </div></div><div class="owl-item active" style="width: 962px; margin-right: 30px;"><div class="item text-center px-5"> <span class="text-9 text-primary"><i class="fa fa-quote-start"></i></span>
+                <p class="text-5 text-white">“I am happy Working with printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam persequeris essent possim iriure. simply dummy text of the printing and typesetting industry.”</p>
+                <img class="img-fluid d-inline-block w-auto rounded-circle shadow" src="images/testimonial/client-sm-2.jpg" alt=""> <strong class="d-block text-3 fw-500 text-white">Patrick Cary</strong> <span class="text-light">Freelancer from USA</span> </div></div><div class="owl-item" style="width: 962px; margin-right: 30px;"><div class="item text-center px-5"> <span class="text-9 text-primary"><i class="fa fa-quote-start"></i></span>
+                <p class="text-5 text-white">“Only trying it out since a few days. But up to now excellent. Seems to work flawlessly. priced simply dummy text of the printing and typesetting industry.”</p>
+                <img class="img-fluid d-inline-block w-auto rounded-circle shadow" src="images/testimonial/client-sm-3.jpg" alt=""> <strong class="d-block text-3 fw-500 text-white">Dennis Jacques</strong> <span class="text-light">Noon Inc</span> </div></div><div class="owl-item" style="width: 962px; margin-right: 30px;"><div class="item text-center px-5"> <span class="text-9 text-primary"><i class="fa fa-quote-start"></i></span>
+                <p class="text-5 text-white">“I have used them twice now. Good rates, very efficient service and priced simply dummy text of the printing and typesetting industry quidam interesset his et. simply dummy text of the printing and typesetting industry. Excellent.”</p>
+                <img class="img-fluid d-inline-block w-auto rounded-circle shadow" src="images/testimonial/client-sm-4.jpg" alt=""> <strong class="d-block text-3 fw-500 text-white">Chris Tom</strong> <span class="text-light">Company CEO from UK</span> </div></div><div class="owl-item cloned" style="width: 962px; margin-right: 30px;"><div class="item text-center px-5"> <span class="text-9 text-primary"><i class="fa fa-quote-start"></i></span>
+                <p class="text-5 text-white">Easy to use, reasonably priced simply dummy text of the printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam possim iriure. simply dummy text of the printing and typesetting industry.”</p>
+                <img class="img-fluid d-inline-block w-auto rounded-circle shadow" src="images/testimonial/client-sm-1.jpg" alt=""> <strong class="d-block text-3 fw-600 text-white">Jay Shah</strong> <span class="text-light">Founder at Icomatic Pvt Ltd</span> </div></div><div class="owl-item cloned" style="width: 962px; margin-right: 30px;"><div class="item text-center px-5"> <span class="text-9 text-primary"><i class="fa fa-quote-start"></i></span>
+                <p class="text-5 text-white">“I am happy Working with printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam persequeris essent possim iriure. simply dummy text of the printing and typesetting industry.”</p>
+                <img class="img-fluid d-inline-block w-auto rounded-circle shadow" src="images/testimonial/client-sm-2.jpg" alt=""> <strong class="d-block text-3 fw-500 text-white">Patrick Cary</strong> <span class="text-light">Freelancer from USA</span> </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><i class="fa fa-chevron-left"></i></button><button type="button" role="presentation" class="owl-next"><i class="fa fa-chevron-right"></i></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial end --> 
+    
+    <!-- Contact Me
+    ============================================= -->
+    <section id="contact" class="section bg-primary">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 text-center text-lg-start wow fadeInUp" style="visibility: hidden; animation-name: none;">
+            <h2 class="text-10 fw-600 mb-5">Let's get in touch</h2>
+            <p class="text-5 mb-5">I enjoy discussing new projects and design challenges. Please share as much info, as possible so we can get the most out of our first catch-up.</p>
+            <h3 class="text-5 fw-600">Living In:</h3>
+            <address class="text-4">
+            30 Shacham street,
+            Los Angeles, USA.
+            </address>
+            <h3 class="text-5 fw-600">Call:</h3>
+            <p class="text-4">(+060) 444 434 444</p>
+            <ul class="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
+              <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="https://twitter.com/harnishdesign/" target="_blank" title="" data-bs-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+              <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="http://www.facebook.com/harnishdesign/" target="_blank" title="" data-bs-original-title="Facebook"><i class="fab fa-facebook"></i></a></li>
+              <li class="social-icons-instagram"><a data-bs-toggle="tooltip" href="http://www.instagram.com/" target="_blank" title="" data-bs-original-title="Instagram"><i class="fab fa-instagram"></i></a></li>
+              <li class="social-icons-github"><a data-bs-toggle="tooltip" href="http://www.github.com/" target="_blank" title="" data-bs-original-title="GitHub"><i class="fab fa-github"></i></a></li>
+              <li class="social-icons-dribbble"><a data-bs-toggle="tooltip" href="http://www.dribbble.com/harnishdesign/" target="_blank" title="" data-bs-original-title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-6 ms-auto mt-5 mt-lg-0 wow fadeInUp" data-wow-delay="0.3s" style="visibility: hidden; animation-delay: 0.3s; animation-name: none;">
+            <h2 class="text-10 fw-600 text-center text-lg-start mb-5">Estimate your Project?</h2>
+            <!-- Contact Form -->
+            <form id="contact-form" class="form-border" action="php/mail.php" method="post">
+              <div class="row g-4">
+                <div class="col-12">
+                  <label class="form-label" for="name">What is Your Name:</label>
+                  <input id="name" name="name" type="text" class="form-control py-1" required="">
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="email">Your Email Address:</label>
+                  <input id="email" name="email" type="email" class="form-control py-1" required="">
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="form-message">How can I Help you?:</label>
+                  <textarea id="form-message" name="form-message" class="form-control py-1" rows="4" required=""></textarea>
+                </div>
+                <div class="col-12 text-center text-lg-start">
+                  <button id="submit-btn" class="btn btn-dark rounded-0" type="submit">Send <span class="ms-3"><i class="fas fa-arrow-right"></i></span></button>
+                </div>
+              </div>
+            </form>
+            <!-- Contact Form end --> 
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Me end --> 
+    
+  </div>
+  <!-- Content end --> 
+  
+  <!-- Footer
+  ============================================= -->
+  <footer id="footer" class="section bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-center text-lg-start wow fadeInUp" style="visibility: hidden; animation-name: none;">
+          <p class="mb-2 mb-lg-0">Copyright © 2021 <a class="fw-600" href="#">Callum</a>. All Rights Reserved.</p>
+        </div>
+        <div class="col-lg-6 wow fadeInUp" style="visibility: hidden; animation-name: none;">
+          <p class="mb-0 text-center text-lg-end">Designed by <a class="fw-600" href="http://www.harnishdesign.net/">Harnish Design</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer end --> 
+  
+</div>
+<!-- Document Wrapper end --> 
+
+<!-- Back to Top
+============================================= --> 
+<a id="back-to-top" class="rounded-circle" data-bs-toggle="tooltip" title="" href="javascript:void(0)" data-bs-original-title="Back to Top" aria-label="Back to Top"><i class="fas fa-arrow-up"></i></a> 
+
+<!-- Styles Switcher -->
+<div id="styles-switcher" class="right">
+  <h2 class="text-3 fw-600">Color Switcher</h2>
+  <hr>
+  <ul>
+    <li class="cyan" data-bs-toggle="tooltip" title="" data-path="css/color-cyan.css" data-bs-original-title="Cyan" aria-label="Cyan"></li>
+    <li class="spring-green" data-bs-toggle="tooltip" title="" data-path="css/color-spring-green.css" data-bs-original-title="Spring Green" aria-label="Spring Green"></li>
+    <li class="green-yellow" data-bs-toggle="tooltip" title="" data-path="css/color-green-yellow.css" data-bs-original-title="Green Yellow" aria-label="Green Yellow"></li>
+    <li class="lime-punch" data-bs-toggle="tooltip" title="" data-path="css/color-lime-punch.css" data-bs-original-title="Lime Punch" aria-label="Lime Punch"></li>
+    <li class="violet" data-bs-toggle="tooltip" title="" data-path="css/color-violet.css" data-bs-original-title="Violet" aria-label="Violet"></li>
+    <li class="orange" data-bs-toggle="tooltip" title="" data-path="css/color-orange.css" data-bs-original-title="Orange" aria-label="Orange"></li>
+    <li class="pale-golden-rod" data-bs-toggle="tooltip" title="" data-path="css/color-pale-golden-rod.css" data-bs-original-title="Pale Golden Rod" aria-label="Pale Golden Rod"></li>
+    <li class="yellow" id="reset-color" data-bs-toggle="tooltip" title="" data-bs-original-title="Reset Default Yellow" aria-label="Reset Default Yellow"></li>
+  </ul>
+  <button class="btn switcher-toggle"><i class="fas fa-cog"></i></button>
+</div>
+<!-- Styles Switcher End --> 
+
+<!-- JavaScript --> 
+<script src="vendor/jquery/jquery.min.js"></script> 
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<!-- Easing --> 
+<script src="vendor/jquery.easing/jquery.easing.min.js"></script> 
+<!-- Appear --> 
+<script src="vendor/jquery.appear/jquery.appear.min.js"></script> 
+<!-- WOW animation --> 
+<script src="vendor/wow/wow.min.js"></script>
+<!-- Images Loaded --> 
+<script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script> 
+<!-- Typed --> 
+<script src="vendor/typed/typed.min.js"></script> 
+<!-- Parallax Bg --> 
+<script src="vendor/parallaxie/parallaxie.min.js"></script> 
+<!-- Owl Carousel --> 
+<script src="vendor/owl.carousel/owl.carousel.min.js"></script> 
+<!-- isotope Portfolio Filter --> 
+<script src="vendor/isotope/isotope.pkgd.min.js"></script> 
+<!-- Magnific Popup --> 
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
+<!-- Style Switcher --> 
+<script src="js/switcher.min.js"></script> 
+<!-- Custom Script --> 
+<script src="js/theme.js"></script><style type="text/css" data-typed-js-css="true">
+        .typed-cursor{
+          opacity: 1;
+        }
+        .typed-cursor.typed-cursor--blink{
+          animation: typedjsBlink 0.7s infinite;
+          -webkit-animation: typedjsBlink 0.7s infinite;
+                  animation: typedjsBlink 0.7s infinite;
+        }
+        @keyframes typedjsBlink{
+          50% { opacity: 0.0; }
+        }
+        @-webkit-keyframes typedjsBlink{
+          0% { opacity: 1; }
+          50% { opacity: 0.0; }
+          100% { opacity: 1; }
+        }
+      </style>
+
+<textarea id="BFI_DATA" style="width: 1px; height: 1px; display: none;"></textarea><title> </title><div id="WidgetFloaterPanels" translate="no" style="display: none; text-align: left; direction: ltr; visibility: hidden;" class="LTRStyle"> <div id="WidgetFloater" style="display: none" onmouseover="Microsoft.Translator.OnMouseOverFloater()" onmouseout="Microsoft.Translator.OnMouseOutFloater()"> <div id="WidgetLogoPanel"> <span id="WidgetTranslateWithSpan"><span>TRANSLATE with </span><img id="FloaterLogo"></span> <span id="WidgetCloseButton" title="Exit Translation" onclick="Microsoft.Translator.FloaterOnClose()">x</span></div> <div id="LanguageMenuPanel"> <div class="DDStyle_outer"><input name="LanguageMenu_svid" type="text" id="LanguageMenu_svid" style="display:none;" autocomplete="on" value="en" onclick="this.select()"> <input name="LanguageMenu_textid" type="text" id="LanguageMenu_textid" style="display:none;" autocomplete="on" onclick="this.select()"> <span onselectstart="return false" tabindex="0" class="DDStyle" id="__LanguageMenu_header" onclick="return LanguageMenu &amp;&amp; !LanguageMenu.Show('__LanguageMenu_popup', event);" onkeydown="return LanguageMenu &amp;&amp; !LanguageMenu.Show('__LanguageMenu_popup', event);">English</span> <div style="position:relative;text-align:left;left:0;"><div style="position:absolute;width:;left:0px;"><div class="DDStyle" style="display:none;" id="__LanguageMenu_popup"> <table id="LanguageMenu" border="0"> <tbody><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick('ar');" ondragstart="LanguageMenu.ondragstart(event);" href="#ar">Arabic</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('he');" ondragstart="LanguageMenu.ondragstart(event);" href="#he">Hebrew</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('pl');" ondragstart="LanguageMenu.ondragstart(event);" href="#pl">Polish</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick('bg');" ondragstart="LanguageMenu.ondragstart(event);" href="#bg">Bulgarian</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('hi');" ondragstart="LanguageMenu.ondragstart(event);" href="#hi">Hindi</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('pt');" ondragstart="LanguageMenu.ondragstart(event);" href="#pt">Portuguese</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick('ca');" ondragstart="LanguageMenu.ondragstart(event);" href="#ca">Catalan</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('mww');" ondragstart="LanguageMenu.ondragstart(event);" href="#mww">Hmong Daw</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('ro');" ondragstart="LanguageMenu.ondragstart(event);" href="#ro">Romanian</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick('zh-CHS');" ondragstart="LanguageMenu.ondragstart(event);" href="#zh-CHS">Chinese Simplified</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('hu');" ondragstart="LanguageMenu.ondragstart(event);" href="#hu">Hungarian</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('ru');" ondragstart="LanguageMenu.ondragstart(event);" href="#ru">Russian</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick('zh-CHT');" ondragstart="LanguageMenu.ondragstart(event);" href="#zh-CHT">Chinese Traditional</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('id');" ondragstart="LanguageMenu.ondragstart(event);" href="#id">Indonesian</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('sk');" ondragstart="LanguageMenu.ondragstart(event);" href="#sk">Slovak</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick('cs');" ondragstart="LanguageMenu.ondragstart(event);" href="#cs">Czech</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('it');" ondragstart="LanguageMenu.ondragstart(event);" href="#it">Italian</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('sl');" ondragstart="LanguageMenu.ondragstart(event);" href="#sl">Slovenian</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick('da');" ondragstart="LanguageMenu.ondragstart(event);" href="#da">Danish</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('ja');" ondragstart="LanguageMenu.ondragstart(event);" href="#ja">Japanese</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('es');" ondragstart="LanguageMenu.ondragstart(event);" href="#es">Spanish</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick('nl');" ondragstart="LanguageMenu.ondragstart(event);" href="#nl">Dutch</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('tlh');" ondragstart="LanguageMenu.ondragstart(event);" href="#tlh">Klingon</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('sv');" ondragstart="LanguageMenu.ondragstart(event);" href="#sv">Swedish</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick('en');" ondragstart="LanguageMenu.ondragstart(event);" href="#en">English</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('ko');" ondragstart="LanguageMenu.ondragstart(event);" href="#ko">Korean</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('th');" ondragstart="LanguageMenu.ondragstart(event);" href="#th">Thai</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick('et');" ondragstart="LanguageMenu.ondragstart(event);" href="#et">Estonian</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('lv');" ondragstart="LanguageMenu.ondragstart(event);" href="#lv">Latvian</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('tr');" ondragstart="LanguageMenu.ondragstart(event);" href="#tr">Turkish</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick('fi');" ondragstart="LanguageMenu.ondragstart(event);" href="#fi">Finnish</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('lt');" ondragstart="LanguageMenu.ondragstart(event);" href="#lt">Lithuanian</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('uk');" ondragstart="LanguageMenu.ondragstart(event);" href="#uk">Ukrainian</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick('fr');" ondragstart="LanguageMenu.ondragstart(event);" href="#fr">French</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('ms');" ondragstart="LanguageMenu.ondragstart(event);" href="#ms">Malay</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('ur');" ondragstart="LanguageMenu.ondragstart(event);" href="#ur">Urdu</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick('de');" ondragstart="LanguageMenu.ondragstart(event);" href="#de">German</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('mt');" ondragstart="LanguageMenu.ondragstart(event);" href="#mt">Maltese</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('vi');" ondragstart="LanguageMenu.ondragstart(event);" href="#vi">Vietnamese</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick('el');" ondragstart="LanguageMenu.ondragstart(event);" href="#el">Greek</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('no');" ondragstart="LanguageMenu.ondragstart(event);" href="#no">Norwegian</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('cy');" ondragstart="LanguageMenu.ondragstart(event);" href="#cy">Welsh</a></td> </tr><tr> <td><a tabindex="-1" onclick="return LanguageMenu.onclick('ht');" ondragstart="LanguageMenu.ondragstart(event);" href="#ht">Haitian Creole</a></td><td><a tabindex="-1" onclick="return LanguageMenu.onclick('fa');" ondragstart="LanguageMenu.ondragstart(event);" href="#fa">Persian</a></td><td></td> </tr> </tbody></table> <img alt="" style="height:7px;width:17px;border-width:0px;left:20px;"> </div></div></div></div> <script type="text/javascript"> var LanguageMenu; var LanguageMenu_keys=["ar","bg","ca","zh-CHS","zh-CHT","cs","da","nl","en","et","fi","fr","de","el","ht","he","hi","mww","hu","id","it","ja","tlh","ko","lv","lt","ms","mt","no","fa","pl","pt","ro","ru","sk","sl","es","sv","th","tr","uk","ur","vi","cy"]; var LanguageMenu_values=["Arabic","Bulgarian","Catalan","Chinese Simplified","Chinese Traditional","Czech","Danish","Dutch","English","Estonian","Finnish","French","German","Greek","Haitian Creole","Hebrew","Hindi","Hmong Daw","Hungarian","Indonesian","Italian","Japanese","Klingon","Korean","Latvian","Lithuanian","Malay","Maltese","Norwegian","Persian","Polish","Portuguese","Romanian","Russian","Slovak","Slovenian","Spanish","Swedish","Thai","Turkish","Ukrainian","Urdu","Vietnamese","Welsh"]; var LanguageMenu_callback=function(){ }; var LanguageMenu_popupid='__LanguageMenu_popup'; </script> </div> <div id="CTFLinksPanel"> <span id="ExternalLinksPanel"><a id="HelpLink" title="Help" target="_blank" href="https://go.microsoft.com/?linkid=9722454"> <img id="HelpImg"></a> <a id="EmbedLink" href="javascript:Microsoft.Translator.FloaterShowEmbed()" title="Get this widget for your own site"> <img id="EmbedImg"></a> <a id="ShareLink" title="Share translated page with friends" href="javascript:Microsoft.Translator.FloaterShowSharePanel()"> <img id="ShareImg"></a> </span> </div> <div id="FloaterProgressBar"> <span id="ProgressFill"></span> </div> </div> <div id="WidgetFloaterCollapsed" style="display: none" onmouseover="Microsoft.Translator.OnMouseOverFloater()"> <span>TRANSLATE with </span><img id="CollapsedLogoImg"></div> <div id="FloaterSharePanel" style="display: none"> <div id="ShareTextDiv"> <span id="ShareTextSpan"> COPY THE URL BELOW </span> </div> <div id="ShareTextboxDiv"> <input name="ShareTextbox" type="text" id="ShareTextbox" readonly="readonly" onclick="this.select()"> <!--a id="TwitterLink" title="Share on Twitter"> <img id="TwitterImg" /></a> <a-- id="FacebookLink" title="Share on Facebook"> <img id="FacebookImg" /></a--> <a id="EmailLink" title="Email this translation"> <img id="EmailImg"></a> </div> <div id="ShareFooter"> <span id="ShareHelpSpan"><a id="ShareHelpLink"> <img id="ShareHelpImg"></a></span> <span id="ShareBackSpan"><a id="ShareBack" href="javascript:Microsoft.Translator.FloaterOnShareBackClick()" title="Back To Translation"> Back</a></span> </div> <input name="EmailSubject" type="hidden" id="EmailSubject" value="Check out this page in {0} translated from {1}"> <input name="EmailBody" type="hidden" id="EmailBody" value="Translated: {0}%0d%0aOriginal: {1}%0d%0a%0d%0aAutomatic translation powered by Microsoft® Translator%0d%0ahttp://www.bing.com/translator?ref=MSTWidget"> <input type="hidden" id="ShareHelpText" value="This link allows visitors to launch this page and automatically translate it to {0}."> </div> <div id="FloaterEmbed" style="display: none"> <div id="EmbedTextDiv"> <span id="EmbedTextSpan">EMBED THE SNIPPET BELOW IN YOUR SITE</span> <a id="EmbedHelpLink" title="Copy this code and place it into your HTML."> <img id="EmbedHelpImg"></a> </div> <div id="EmbedTextboxDiv"> <input name="EmbedSnippetTextBox" type="text" id="EmbedSnippetTextBox" readonly="readonly" value="<div id='MicrosoftTranslatorWidget' class='Dark' style='color:white;background-color:#555555'></div><script type='text/javascript'>setTimeout(function(){var s=document.createElement('script');s.type='text/javascript';s.charset='UTF-8';s.src=((location &amp;&amp; location.href &amp;&amp; location.href.indexOf('https') == 0)?'https://ssl.microsofttranslator.com':'http://www.microsofttranslator.com')+'/ajax/v3/WidgetV3.ashx?siteData=ueOIGRSKkd965FeEGM5JtQ**&amp;ctf=true&amp;ui=true&amp;settings=manual&amp;from=en';var p=document.getElementsByTagName('head')[0]||document.documentElement;p.insertBefore(s,p.firstChild); },0);</script>" onclick="this.select()"> </div> <div id="EmbedNoticeDiv"><span id="EmbedNoticeSpan">Enable collaborative features and customize widget: <a href="http://www.bing.com/widget/translator" target="_blank">Bing Webmaster Portal</a></span></div> <div id="EmbedFooterDiv"><span id="EmbedBackSpan"><a href="javascript:Microsoft.Translator.FloaterOnEmbedBackClick()" title="Back To Translation">Back</a></span></div> </div> <script type="text/javascript"> var intervalId = setInterval(function () { if (MtPopUpList) { LanguageMenu = new MtPopUpList(); var langMenu = document.getElementById(LanguageMenu_popupid); var origLangDiv = document.createElement("div"); origLangDiv.id = "OriginalLanguageDiv"; origLangDiv.innerHTML = "<span id='OriginalTextSpan'>ORIGINAL: </span><span id='OriginalLanguageSpan'></span>"; langMenu.appendChild(origLangDiv); LanguageMenu.Init('LanguageMenu', LanguageMenu_keys, LanguageMenu_values, LanguageMenu_callback, LanguageMenu_popupid); window["LanguageMenu"] = LanguageMenu; clearInterval(intervalId); } }, 1); </script> </div><div class="TnITTtw-fp-collapsed-button" style="display: block;"></div><div class="TnITTtw-mate-fp-bar" translate="no" style="z-index: 1000000000; width: 0px; height: 0px; opacity: 0; display: none;">    <div class="TnITTtw-hide-fp-bar" style="display: none;"></div>    <div class="TnITTtw-current-page-lang" style="display: none;">Esta página está en English</div>    <div class="TnITTtw-cta-button-layout" style="display: none;">        <div class="TnITTtw-spinner">            <div class="TnITTtw-bounce1"></div>            <div class="TnITTtw-bounce2"></div>            <div class="TnITTtw-bounce3"></div>        </div>        <div class="TnITTtw-mw-button TnITTtw-fp-translate TnITTtw-high-cta" style="display: none;">Traducir al Spanish</div>    </div>    <div class="TnITTtw-change-language TnITTtw-select" data-for-serial="3" style="display: none;"></div>    <div class="TnITTtw-stop-fp"></div>    <div class="TnITTtw-toggle-iphone-settings" style="display: none;"></div>    <div class="TnITTtw-ui_selector" style="display: none;">        <div class="TnITTtw-options-arrow"></div>        <div class="TnITTtw-options TnITTtw-opt-3 TnITTtw-standalone" data-serial="3" style="display: none; z-index: 998;">            <div class="TnITTtw-dd-search">                <input class="TnITTtw-dd-input" type="text" data-dir="to" placeholder="Buscar" data-width="NaN">            </div>            <div id="selVisibleScroll-3">                <div id="selEntireScroll-3">                    <div class="TnITTtw-inner-options-layout">                        <ul class="TnITTtw-list"><li class="lang-af TnITTtw-option" index="1"><span id="lang-af" val="af" class="lang-af">Afrikaans</span></li><li class="lang-sq TnITTtw-option" index="2"><span id="lang-sq" val="sq" class="lang-sq">Albanian</span></li><li class="lang-am TnITTtw-option" index="3"><span id="lang-am" val="am" class="lang-am">Amharic</span></li><li class="lang-ar TnITTtw-option" index="4"><span id="lang-ar" val="ar" class="lang-ar">Arabic</span></li><li class="lang-hy TnITTtw-option" index="5"><span id="lang-hy" val="hy" class="lang-hy">Armenian</span></li><li class="lang-az TnITTtw-option" index="6"><span id="lang-az" val="az" class="lang-az">Azerbaijani</span></li><li class="lang-bn TnITTtw-option" index="7"><span id="lang-bn" val="bn" class="lang-bn">Bengali</span></li><li class="lang-bg TnITTtw-option" index="8"><span id="lang-bg" val="bg" class="lang-bg">Bulgarian</span></li><li class="lang-ca TnITTtw-option" index="9"><span id="lang-ca" val="ca" class="lang-ca">Catalan</span></li><li class="lang-hr TnITTtw-option" index="10"><span id="lang-hr" val="hr" class="lang-hr">Croatian</span></li><li class="lang-cs TnITTtw-option" index="11"><span id="lang-cs" val="cs" class="lang-cs">Czech</span></li><li class="lang-da TnITTtw-option" index="12"><span id="lang-da" val="da" class="lang-da">Danish</span></li><li class="lang-nl TnITTtw-option" index="13"><span id="lang-nl" val="nl" class="lang-nl">Dutch</span></li><li class="lang-en TnITTtw-option" index="14"><span id="lang-en" val="en" class="lang-en">English</span></li><li class="lang-et TnITTtw-option" index="15"><span id="lang-et" val="et" class="lang-et">Estonian</span></li><li class="lang-fi TnITTtw-option" index="16"><span id="lang-fi" val="fi" class="lang-fi">Finnish</span></li><li class="lang-fr TnITTtw-option" index="17"><span id="lang-fr" val="fr" class="lang-fr">French</span></li><li class="lang-de TnITTtw-option" index="18"><span id="lang-de" val="de" class="lang-de">German</span></li><li class="lang-el TnITTtw-option" index="19"><span id="lang-el" val="el" class="lang-el">Greek</span></li><li class="lang-gu TnITTtw-option" index="20"><span id="lang-gu" val="gu" class="lang-gu">Gujarati</span></li><li class="lang-ht TnITTtw-option" index="21"><span id="lang-ht" val="ht" class="lang-ht">Haitian Creole</span></li><li class="lang-iw TnITTtw-option" index="22"><span id="lang-iw" val="iw" class="lang-iw">Hebrew</span></li><li class="lang-hi TnITTtw-option" index="23"><span id="lang-hi" val="hi" class="lang-hi">Hindi</span></li><li class="lang-hu TnITTtw-option" index="24"><span id="lang-hu" val="hu" class="lang-hu">Hungarian</span></li><li class="lang-is TnITTtw-option" index="25"><span id="lang-is" val="is" class="lang-is">Icelandic</span></li><li class="lang-id TnITTtw-option" index="26"><span id="lang-id" val="id" class="lang-id">Indonesian</span></li><li class="lang-it TnITTtw-option" index="27"><span id="lang-it" val="it" class="lang-it">Italian</span></li><li class="lang-ja TnITTtw-option" index="28"><span id="lang-ja" val="ja" class="lang-ja">Japanese</span></li><li class="lang-kn TnITTtw-option" index="29"><span id="lang-kn" val="kn" class="lang-kn">Kannada</span></li><li class="lang-kk TnITTtw-option" index="30"><span id="lang-kk" val="kk" class="lang-kk">Kazakh</span></li><li class="lang-km TnITTtw-option" index="31"><span id="lang-km" val="km" class="lang-km">Khmer</span></li><li class="lang-ko TnITTtw-option" index="32"><span id="lang-ko" val="ko" class="lang-ko">Korean</span></li><li class="lang-ku TnITTtw-option" index="33"><span id="lang-ku" val="ku" class="lang-ku">Kurdish (Kurmanji)</span></li><li class="lang-lo TnITTtw-option" index="34"><span id="lang-lo" val="lo" class="lang-lo">Lao</span></li><li class="lang-lv TnITTtw-option" index="35"><span id="lang-lv" val="lv" class="lang-lv">Latvian</span></li><li class="lang-lt TnITTtw-option" index="36"><span id="lang-lt" val="lt" class="lang-lt">Lithuanian</span></li><li class="lang-mg TnITTtw-option" index="37"><span id="lang-mg" val="mg" class="lang-mg">Malagasy</span></li><li class="lang-ms TnITTtw-option" index="38"><span id="lang-ms" val="ms" class="lang-ms">Malay</span></li><li class="lang-ml TnITTtw-option" index="39"><span id="lang-ml" val="ml" class="lang-ml">Malayalam</span></li><li class="lang-mt TnITTtw-option" index="40"><span id="lang-mt" val="mt" class="lang-mt">Maltese</span></li><li class="lang-mi TnITTtw-option" index="41"><span id="lang-mi" val="mi" class="lang-mi">Maori</span></li><li class="lang-mr TnITTtw-option" index="42"><span id="lang-mr" val="mr" class="lang-mr">Marathi</span></li><li class="lang-my TnITTtw-option" index="43"><span id="lang-my" val="my" class="lang-my">Myanmar (Burmese)</span></li><li class="lang-ne TnITTtw-option" index="44"><span id="lang-ne" val="ne" class="lang-ne">Nepali</span></li><li class="lang-no TnITTtw-option" index="45"><span id="lang-no" val="no" class="lang-no">Norwegian</span></li><li class="lang-ps TnITTtw-option" index="46"><span id="lang-ps" val="ps" class="lang-ps">Pashto</span></li><li class="lang-fa TnITTtw-option" index="47"><span id="lang-fa" val="fa" class="lang-fa">Persian</span></li><li class="lang-pl TnITTtw-option" index="48"><span id="lang-pl" val="pl" class="lang-pl">Polish</span></li><li class="lang-pt TnITTtw-option" index="49"><span id="lang-pt" val="pt" class="lang-pt">Portuguese</span></li><li class="lang-pa TnITTtw-option" index="50"><span id="lang-pa" val="pa" class="lang-pa">Punjabi</span></li><li class="lang-ro TnITTtw-option" index="51"><span id="lang-ro" val="ro" class="lang-ro">Romanian</span></li><li class="lang-ru TnITTtw-option" index="52"><span id="lang-ru" val="ru" class="lang-ru">Russian</span></li><li class="lang-sm TnITTtw-option" index="53"><span id="lang-sm" val="sm" class="lang-sm">Samoan</span></li><li class="lang-zh-CN TnITTtw-option" index="54"><span id="lang-zh-CN" val="zh-CN" class="lang-zh-CN">Simplified Chinese</span></li><li class="lang-sk TnITTtw-option" index="55"><span id="lang-sk" val="sk" class="lang-sk">Slovak</span></li><li class="lang-sl TnITTtw-option" index="56"><span id="lang-sl" val="sl" class="lang-sl">Slovenian</span></li><li class="lang-es TnITTtw-option_selected" index="57"><span id="lang-es" val="es" class="lang-es">Spanish</span></li><li class="lang-sv TnITTtw-option" index="58"><span id="lang-sv" val="sv" class="lang-sv">Swedish</span></li><li class="lang-ta TnITTtw-option" index="59"><span id="lang-ta" val="ta" class="lang-ta">Tamil</span></li><li class="lang-te TnITTtw-option" index="60"><span id="lang-te" val="te" class="lang-te">Telugu</span></li><li class="lang-th TnITTtw-option" index="61"><span id="lang-th" val="th" class="lang-th">Thai</span></li><li class="lang-zh-TW TnITTtw-option" index="62"><span id="lang-zh-TW" val="zh-TW" class="lang-zh-TW">Traditional Chinese</span></li><li class="lang-tr TnITTtw-option" index="63"><span id="lang-tr" val="tr" class="lang-tr">Turkish</span></li><li class="lang-uk TnITTtw-option" index="64"><span id="lang-uk" val="uk" class="lang-uk">Ukrainian</span></li><li class="lang-ur TnITTtw-option" index="65"><span id="lang-ur" val="ur" class="lang-ur">Urdu</span></li><li class="lang-vi TnITTtw-option" index="66"><span id="lang-vi" val="vi" class="lang-vi">Vietnamese</span></li><li class="lang-cy TnITTtw-option" index="67"><span id="lang-cy" val="cy" class="lang-cy">Welsh</span></li></ul>                    </div>                </div>                <div id="sel-scrollbar-3">                    <div id="sel-track-3">                        <div id="sel-dragBar-3"></div>                    </div>                </div>            </div>        </div>    </div>    <div class="TnITTtw-fp-options" style="display: none;">        <input type="checkbox" id="TnITTtw-always-translate" style="display: none;" readonly="readonly"><label for="TnITTtw-always-translate" class="TnITTtw-always-translate-label TnITTtw-not-pro" style="display: none;"><span class="TnITTtw-always-translate-inner-label" style="display: none;">Traducir siempre del English al Spanish</span><span class="TnITTtw-pro-label" style="display: none;">PRO</span></label>        <br style="display: none;">        <input type="checkbox" id="TnITTtw-never-translate-lang" style="display: none;"><label for="TnITTtw-never-translate-lang" class="TnITTtw-never-translate-lang-label" style="display: none;">No traducir nunca del English</label>        <br style="display: none;">        <input type="checkbox" id="TnITTtw-never-translate-site" style="display: none;"><label for="TnITTtw-never-translate-site" class="TnITTtw-never-translate-site-label" style="display: none;">No traducir nunca del harnishdesign.net</label>    </div></div></body>
+
+
+
+
+
+
+ESTILOS CSS
+
+
+    <li class="cyan" data-bs-toggle="tooltip" title="" data-path="css/color-cyan.css" data-bs-original-title="Cyan" aria-label="Cyan"></li>
+    <li class="spring-green" data-bs-toggle="tooltip" title="" data-path="css/color-spring-green.css" data-bs-original-title="Spring Green" aria-label="Spring Green"></li>
+    <li class="green-yellow" data-bs-toggle="tooltip" title="" data-path="css/color-green-yellow.css" data-bs-original-title="Green Yellow" aria-label="Green Yellow"></li>
+    <li class="lime-punch" data-bs-toggle="tooltip" title="" data-path="css/color-lime-punch.css" data-bs-original-title="Lime Punch" aria-label="Lime Punch"></li>
+    <li class="violet" data-bs-toggle="tooltip" title="" data-path="css/color-violet.css" data-bs-original-title="Violet" aria-label="Violet"></li>
+    <li class="orange" data-bs-toggle="tooltip" title="" data-path="css/color-orange.css" data-bs-original-title="Orange" aria-label="Orange"></li>
+    <li class="pale-golden-rod" data-bs-toggle="tooltip" title="" data-path="css/color-pale-golden-rod.css" data-bs-original-title="Pale Golden Rod" aria-label="Pale Golden Rod"></li>
+    <li class="yellow" id="reset-color" data-bs-toggle="tooltip" title="" data-bs-original-title="Reset Default Yellow" aria-label="Reset Default Yellow"></li>
+  
