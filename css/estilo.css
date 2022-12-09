@@ -2,18 +2,18 @@
     margin: 0;
     padding: 0;
 }
-
 body{
+    background-color: #dddddd;
+    font font-family: "poopins", sans-serif;
+}
+body, html {
+  height: 100%;
+}
 
+#main-wrapper{
+    background: #fff;
 }
-.color1{
-    background-color: yellow;
-}
-.flexbox{
-    
-    display: flexbox;
-    
-}
-header > section{
-    border: 2px;
+
+.logo-img{
+    width: 30%;
 }
