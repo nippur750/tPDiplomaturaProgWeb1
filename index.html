@@ -29,36 +29,35 @@
     <div id="main-wrapper">
 
         <!-- Header -->
-        <header id="header">
+        <header id="header" class="sticky-too-slide">
             <!-- Navbar -->
-            <nav>
-                <div>
-                    <div class="logo-img">
+            <nav class="primary-menu navbar navbar-expan-lg text-uppercase navbar-under-text fw-600 sticky-on">
+                <div class="container position-relative">
+                    <div class="col-auto col-lg-2 d-inline-flex ps-lg-0 logo-img">
                         <!-- Logo -->
-                        <a class="logo" href="index.html" title="Marcos"> <img class="logo-img" src="img/logo.png" alt="Marcos"> </a>
+                        <a class="logo" href="index.html" title="Marcos"> <img src="img/logo.png" alt="Marcos"> </a>
                         <!-- Logo End -->
                     </div>
-                    <div>
-                        <button type="button" data-bs-toggle="collapse"
-                            data-bs-target="#header-nav"><span></span><span></span><span></span></button>
-                        <div id="header-nav">
+                    <div class="col col-lg-8 navbar-accordion px-0">
+                        <!-- <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"                         data-bs-target="#header-nav"><span></span><span></span><span></span></button> -->
+                        <div id="header-nav" class="justify-content-center">
                             <ul class="navbar-nav">
-                                <li href="#home">Inicio</a></li>
-                                <li href="#about">About</a></li>
-                                <li href="#services">Services</a></li>
-                                <li href="#resume">Resume</a></li>
-                                <li href="#portfolio">Portfolio</a></li>
-                                <li href="#contact">Contact</a></li>
+                                <li class="nav-item" href="#home">Inicio</a></li>
+                                <li class="nav-item" href="#about">About</a></li>
+                                <li class="nav-item" href="#services">Services</a></li>
+                                <li class="nav-item" href="#resume">Resume</a></li>
+                                <li class="nav-item" href="#portfolio">Portfolio</a></li>
+                                <li class="nav-item" href="#contact">Contact</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div>
-                        <ul>
-                            <li><a data-bs-toggle="tooltip" href="http://www.facebook.com/" target="_blank" title=""
+                    <div class="col-auto col-lg-2 0-flex justify-content-end ps-0" >
+                        <ul class="social-icons" >
+                            <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="http://www.facebook.com/" target="_blank" title=""
                                     data-bs-original-title="Facebook"><i class="fab fa-facebook"></i></a></li>
-                            <li><a data-bs-toggle="tooltip" href="http://www.twitter.com/" target="_blank" title=""
+                            <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="http://www.twitter.com/" target="_blank" title=""
                                     data-bs-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                            <li><a data-bs-toggle="tooltip" href="http://www.instagram.com/" target="_blank" title=""
+                            <li class="social-icons-instagram"><a data-bs-toggle="tooltip" href="http://www.instagram.com/" target="_blank" title=""
                                     data-bs-original-title="Instagram"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
@@ -74,12 +73,12 @@
 
             <!-- Intro
         ============================================= -->
-            <section id="home">
-                <div>
-                    <div>
-                        <div>
+            <section id="home" class="bg-primary d-flex fullscreen-with-header position-relative" >
+                <div class="container my-auto py-5 py-lg-0">
+                    <div class="ROW PY-4" >
+                        <div class="col-lg-7 text-center text-lg-start align-self-center order-lg-0" >
                             <h1>Hola, soy Freelancer.</h1>
-                            <div style="display: none;">
+                            <div >
                                 <p>Diseñador</p>
                                 <p>Desarrollador</p>
                                 <p>Marcos</p>
@@ -89,8 +88,8 @@
                             <a href="#portfolio">Ver mis trabajos</a><a href="#contact">Contacteme<span
                                     class="text-4 ms-2"><i></i></span></a>
                         </div>
-                        <div>
-                            <div style="visibility: visible;"> <img class="img-fluid rounded-pill d-block"
+                        <div class="col-lg-6 text-center align-self-center mb-lg-0 order-0 order-lg-1" >
+                            <div class="bg-light rounded-pill d-inline-block p-3 shadow-lg wow zoomIn __fx-devtools-hide-shortcut__"> <img class="img-fluid rounded-pill d-block"
                                     src="img/web-developer.jpg" title="I'm Callum" alt=""></div>
                         </div>
                     </div>
@@ -112,37 +111,32 @@
                         <div style="visibility: visible;">
                             <h2>HOLA, Yo soy <span class="fw-700 border-bottom border-3 border-primary">Marcos Garcia.</span>
                             </h2>
-                            <p>I'm a designer &amp; developer with a passion for web design. I enjoy developing simple,
-                                clean and slick websites that provide real value to the end user. Thousands of clients
-                                have procured exceptional results while working with me. Delivering work within time and
-                                budget which meets client’s requirements is our moto.</p>
+                            <p>Soy entusiasta del GNU &amp; desarrollador, con una tremenda pasión por los video juegos. Disfruto aprendiendo e implementando tecnologías, desarrollar espacios para la difusión tecnológica. Desarrollar soluciones para nuestros clientes. 
+                            Decenas de los cuales proporcionan buenas reseñas sobre nuestro trabajo juntos. Compromiso y responzabilidad con los tiempos de todos.-</p>
                         </div>
                         <div data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s;">
                             <div>
                                 <div><span class="wow heartBeat" data-wow-delay="1.3s"
-                                        style="visibility: visible; animation-delay: 1.3s;">30</span></div>
-                                <h3 data-wow-delay="2s" style="visibility: visible; animation-delay: 2s;">Años de
+                                       >30</span></div>
+                                <h3 data-wow-delay="2s">Años de
                                     <span>Experiencia</span></h3>
                             </div>
                         </div>
                     </div>
                     <div>
-                        <div style="visibility: visible; animation-name: fadeInUp;">
+                        <div >
                             <p>Nombre:</p>
                             <p>Marcos Garcia</p>
                         </div>
-                        <div data-wow-delay="0.2s"
-                            style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <div data-wow-delay="0.2s">
                             <p>Email:</p>
                             <p><a class="link-dark" href="">mfg750@marcosgarcia.com.ar</a></p>
                         </div>
-                        <div data-wow-delay="0.3s"
-                            style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <div data-wow-delay="0.3s">
                             <p>Fecha Nacimiento:</p>
                             <p>06 Diciembre, 1975</p>
                         </div>
-                        <div data-wow-delay="0.4s"
-                            style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                        <div data-wow-delay="0.4s">
                             <p>En:</p>
                             <p>Tierra del Fuego, ARG.</p>
                         </div>
