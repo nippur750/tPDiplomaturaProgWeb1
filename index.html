@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NiPPuR - Portfolio Personal</title>
+    <!-- google web fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" type="text/css">
+   <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/8224ce2a17.js" crossorigin="anonymous"></script>
+   <!-- bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> 
+   <!-- icon boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/estilo.css">
+
+</head>
+<body data-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+  <div id="main-wrapper">
+    <header id="header" class="sticky-top-slide"> 
+      <!-- Navbar -->
+      <nav class="primary-menu navbar navbar-expand-lg text-uppercase navbar-line-under-text fw-600">
+        <div class="container position-relative">
+          <div class="col-auto col-lg-2 d-inline-flex ps-lg-0"> 
+            <!-- Logo --> 
+            <a class="logo" href="index.html" title="Marcos"> <img src="img/logo.png" alt="Marcos"> </a> 
+            <!-- Logo End --> 
+          </div>
+          <div class="col col-lg-8 navbar-accordion px-0">
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav"><span></span><span></span><span></span></button>
+            <div id="header-nav" class="collapse navbar-collapse justify-content-center">
+              <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link smooth-scroll active" href="#home">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#services">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#resume">Resumen</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>                
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contacto</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-auto col-lg-2 d-flex justify-content-end ps-0">
+        <ul class="social-icons">
+        <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="https://www.facebook.com/nippur750" target="_blank" title="" data-bs-original-title="Facebook"><i class="fab fa-facebook"></i></a></li>
+            <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="http://www.twitter.com/nippur750" target="_blank" title="" data-bs-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+        <li class="social-icons-instagram"><a data-bs-toggle="tooltip" href="http://www.instagram.com/nippur750" target="_blank" title="" data-bs-original-title="Instagram"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End --> 
+    </header>
+
+    <div id="content" role="main"> 
+    
+      <!-- Intro
+      ============================================= -->
+      <section id="home" class="bg-primary d-flex fullscreen-with-header position-relative">
+        <div class="container my-auto py-5 py-lg-0">
+          <div class="row py-4">
+            <div class="col-lg-7 text-center text-lg-start align-self-center order-1 order-lg-0">
+              <h1 class="text-12 fw-300 mb-0 text-uppercase">Hola, Soy DesarrolladorWeb</h1>
+              <div class="typed-strings" style="display: none;">
+                <p>Diseñador</p>
+                <p>Desarrollador</p>
+                <p>Marcos</p>
+              </div>
+              <h2 class="text-21 fw-600 text-uppercase mb-0 ms-n1"><span class="typed">Desarrollador</span><span class="typed-cursor">|</span></h2>
+              <p class="text-5">Radicado en Tierra del Fuego, ARG.</p>
+              <a href="#portfolio" class="btn btn-dark rounded-0 smooth-scroll mt-3">Mis Trabajos</a><a href="#contact" class="btn btn-link text-dark smooth-scroll mt-3">Contácteme<span class="text-4 ms-2"><i class="far fa-arrow-alt-circle-down"></i></span></a> </div>
+            <div class="col-lg-5 text-center align-self-center mb-4 mb-lg-0 order-0 order-lg-1">
+              <div class="bg-light rounded-pill d-inline-block p-3 shadow-lg wow zoomIn" style="visibility: visible;"> <img class="img-fluid rounded-pill d-block" src="img/web-developer.jpg" title="I'm Callum" alt=""></div>
+            </div>
+          </div>
+        </div>
+        <a href="#about" class="scroll-down-arrow text-dark smooth-scroll"><span class="animated"><i class="fas fa-arrow-down"></i></span></a> 
+      </section>
+      <!-- Intro end --> 
+      
+      <!-- About
+      ============================================= -->
+      <section id="about" class="section">
+        <div class="container"> 
+          <!-- Heading -->
+          <p class="text-center mb-2 wow fadeInUp" style="visibility: show; animation-name: none;"><span class="bg-primary text-dark px-2">Sobre mí</span></p>
+          <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp"  style="visibility: show; animation-name: none;">Conózcame</h2>
+          <!-- Heading end-->
+          
+          <div class="row">
+            <div class="col-lg-8 text-center text-lg-start wow fadeInUp" style="visibility: show; animation-name: none;">
+              <h2 class="text-8 fw-400 mb-3">Hola, Soy <span class="fw-700 border-bottom border-3 border-primary">Marcos Garcia</span></h2>
+              <p class="text-5">Soy diseñador &amp; desarrollador apasionado por tecnologías Web. Disfruto reciclar código, volverlo simple y con sentido práctico para el usuario final. Hemos tenido buenas experiencias trabajando en equipo con nuestros clientes. cumplir los requerimientos en tiempo y forma es nuestra motivación.</p>
+            </div>
+            <div class="col-lg-4 mt-4 mt-lg-0 wow fadeInUp" data-wow-delay="0.2s" style="visibility: show; animation-delay: 0.2s; animation-name: none;">
+              <div class="featured-box style-4">
+                <div class="featured-box-icon text-25 fw-500 bg-primary rounded-circle"><span class="wow heartBeat" data-wow-delay="1.3s" style="visibility: show; animation-delay: 1.3s; animation-name: none;">30</span></div>
+                <h3 class="text-7 wow rubberBand" data-wow-delay="2s" style="visibility: show; animation-delay: 2s; animation-name: none;">Años de <span class="fw-700">Experiencia</span></h3>
+              </div>
+            </div>
+          </div>
+          <div class="row gy-3 mt-4">
+            <div class="col-6 col-lg-3 wow fadeInUp" style="visibility: show; animation-name: none;">
+              <p class="text-muted fw-500 mb-0">Nombre:</p>
+              <p class="text-4 text-dark fw-600 mb-0">Marcos Garcia</p>
+            </div>
+            <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s" style="visibility: show; animation-delay: 0.2s; animation-name: none;">
+              <p class="text-muted fw-500 mb-0">Email:</p>
+              <p class="text-4 fw-600 mb-0"><a class="link-dark" href="">mfg750@marcosgarcia.com.ar</a></p>
+            </div>
+            <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s" style="visibility: show; animation-delay: 0.3s; animation-name: none;">
+              <p class="text-muted fw-500 mb-0">Fecha de nacimiento:</p>
+              <p class="text-4 text-dark fw-600 mb-0">06 Diciembre, 1975</p>
+            </div>
+            <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s" style="visibility: show; animation-delay: 0.4s; animation-name: none;">
+              <p class="text-muted fw-500 mb-0">De:</p>
+              <p class="text-4 text-dark fw-600 mb-0">Río Grande, Tierra del Fuego.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About end --> 
+      
+      <!-- Services
+      ============================================= -->
+      <section id="services" class="section bg-light">
+        <div class="container"> 
+          <!-- Heading -->
+          <p class=" text-center mb-2 wow fadeInUp" style="visibility: show; animation-name: none;"><span class="bg-primary text-dark px-2">Que podemos hacer?</span></p>
+          <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp" style="visibility: show; animation-name: none;">Podremos mejorar su proyecto.</h2>
+          <!-- Heading end-->
+          
+          <div class="row gy-5 mt-5">
+            <div class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: show; animation-name: none;">
+              <div class="featured-box text-center px-md-4">
+                <div class="featured-box-icon text-primary text-13"> <i class="fas fa-palette"></i> </div>
+                <h3 class="text-6 fw-600 mb-3">Desarrollo Web</h3>
+                <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. </p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: show; animation-name: none;">
+              <div class="featured-box text-center px-md-4">
+                <div class="featured-box-icon text-primary text-13"> <i class="fas fa-desktop"></i></div>
+                <h3 class="text-6 fw-600 mb-3">Diseño y estilo</h3>
+                <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. </p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: show; animation-name: none;">
+              <div class="featured-box text-center px-md-4">
+                <div class="featured-box-icon text-primary text-13"> <i class="fas fa-pencil-ruler"></i> </div>
+                <h3 class="text-6 fw-600 mb-3">Contenido audiovisual.</h3>
+                <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. </p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: show; animation-name: none;">
+              <div class="featured-box text-center px-md-4">
+                <div class="featured-box-icon text-primary text-13"> <i class="fas fa-paint-brush"></i> </div>
+                <h3 class="text-6 fw-600 mb-3">Identificación de marca o producto</h3>
+                <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. </p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: show; animation-name: none;">
+              <div class="featured-box text-center px-md-4">
+                <div class="featured-box-icon text-primary text-13"> <i class="fas fa-chart-area"></i> </div>
+                <h3 class="text-6 fw-600 mb-3">Analisis de mercado</h3>
+                <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. </p>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 wow fadeInUp" style="visibility: show; animation-name: none;">
+              <div class="featured-box text-center px-md-4">
+                <div class="featured-box-icon text-primary text-13"> <i class="fas fa-bullhorn"></i> </div>
+                <h3 class="text-6 fw-600 mb-3">Comercio electrónico</h3>
+                <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services end --> 
+      
+      <!-- Resume
+      ============================================= -->
+      <section id="resume" class="section">
+        <div class="container"> 
+          <!-- Heading -->
+          <p class=" text-center mb-2 wow fadeInUp" style="visibility: show; animation-name: none;"><span class="bg-primary text-dark px-2">Resume</span></p>
+          <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp" style="visibility: show; animation-name: none;">A summary of My Resume</h2>
+          <!-- Heading end-->
+          
+          <div class="row g-5 mt-5"> 
+            <!-- My Education -->
+            <div class="col-lg-6 wow fadeInUp" style="visibility: show; animation-name: none;">
+              <h2 class="text-7 fw-600 mb-4 pb-2">Mi Educación</h2>
+              <div class="border-start border-2 border-primary ps-3">
+                <h3 class="text-5">Lic. Medios Audiovisuales</h3>
+                <p class="mb-2">UNTDF/ 2014 - 2019</p>
+                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+                <hr class="my-4">
+                <h3 class="text-5">Diplomatura programación Web</h3>
+                <p class="mb-2">UTN-FRBA / 2022 - 2023</p>
+                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+                <hr class="my-4">
+                <h3 class="text-5">Desarrollo Web PHP y MySQL</h3>
+                <p class="mb-2">Club Programadores Asoc. Civil. / 2008 - 2009</p>
+                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+              </div>
+            </div>
+            <!-- My Experience -->
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s" style="visibility: show; animation-delay: 0.2s; animation-name: none;">
+              <h2 class="text-7 fw-600 mb-4 pb-2">Mi Experiencia</h2>
+              <div class="border-start border-2 border-primary ps-3">
+                <h3 class="text-5">Soporte técnico Informático</h3>
+                <p class="mb-2">U.N.T.D.F. / 2014 - Actualidad</p>
+                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+                <hr class="my-4">
+                <h3 class="text-5">Soporte técnico Informático</h3>
+                <p class="mb-2">ITServicioRGA / 2008 - actualidad</p>
+                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+                <hr class="my-4">
+                <h3 class="text-5">20 años de experiencia trabajando en soporte técnico</h3>
+                <p class="mb-2">Multiples empresas / 90´s - Actualidad</p>
+                <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- My Skills -->
+          <h2 class="text-7 fw-600 mb-4 pb-2 mt-5 wow fadeInUp" style="visibility: show; animation-name: none;">My Skills</h2>
+          <div class="row gx-5">
+            <div class="col-md-6 wow fadeInUp" style="visibility: show; animation-name: none;">
+              <p class="fw-500 text-start mb-2">DesarrolloWeb <span class="float-end">90%</span></p>
+              <div class="progress progress-sm mb-4">
+                <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="fw-500 text-start mb-2">HTML/CSS <span class="float-end">75%</span></p>
+              <div class="progress progress-sm mb-4">
+                <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="fw-500 text-start mb-2">JavaScript <span class="float-end">60%</span></p>
+              <div class="progress progress-sm mb-4">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="col-md-6 wow fadeInUp" data-wow-delay="0.2s" style="visibility: show; animation-delay: 0.2s; animation-name: none;">
+              <p class="fw-500 text-start mb-2">PHP / MySQL<span class="float-end">80%</span></p>
+              <div class="progress progress-sm mb-4">
+                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="fw-500 text-start mb-2">Desarrollo Audiovisual <span class="float-end">80%</span></p>
+              <div class="progress progress-sm mb-4">
+                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p class="fw-500 text-start mb-2">Soporte técnico remoto <span class="float-end">90%</span></p>
+              <div class="progress progress-sm mb-4">
+                <div class="progress-bar" role="progressbar" style="width: 99%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-5 wow fadeInUp" style="visibility: show; animation-name: none;"><a href="#" class="btn btn-outline-dark shadow-none rounded-0">Download CV</a></p>
+        </div>
+      </section>
+      <!-- Resume end --> 
+      
+      <!-- Portfolio
+      ============================================= -->
+      <section id="portfolio" class="section bg-light">
+        <div class="container"> 
+          <!-- Heading -->
+          <p class=" text-center mb-2 wow fadeInUp" style="visibility: show; animation-name: none;"><span class="bg-primary text-dark px-2">Portfolio</span></p>
+          <h2 class="text-10 fw-600 text-center mb-5 wow fadeInUp" style="visibility: show; animation-name: none;">Proyectos recientes</h2>
+          <!-- Heading end--> 
+          
+          <!-- Filter Menu -->
+          <ul class="portfolio-menu nav nav-tabs fw-600 justify-content-start justify-content-md-center border-bottom-0 mb-4 wow fadeInUp" style="visibility: show; animation-name: none;">
+            <li class="nav-item"> <a data-filter="*" class="nav-link rounded-0 active" href="">Todos</a></li>
+            <li class="nav-item"> <a data-filter=".detailed" href="" class="nav-link rounded-0">19640.site</a></li>
+            <li class="nav-item"> <a data-filter=".mockups" href="" class="nav-link rounded-0">kotaix</a></li>
+            <li class="nav-item"> <a data-filter=".youtube" href="" class="nav-link rounded-0">Drupal</a></li>
+            <li class="nav-item"> <a data-filter=".vimeo" href="" class="nav-link rounded-0">ProyectoSelknam</a></li>
+          </ul>
+          <!-- Filter Menu end -->
+          <div class="portfolio wow fadeInUp" style="visibility: show; animation-name: none;">
+            <div class="row g-4 mt-3 portfolio-filter" style="position: relative; height: 940.234px;">
+              <div class="col-sm-6 col-lg-4 detailed" style="position: absolute; left: 0px; top: 0px;">
+                <div class="portfolio-box">
+                  <div class="portfolio-img"> <img class="img-fluid d-block" src="img/proyectos/19640.site.png" alt="">
+                    <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/portfolio-ajax-project-1.html"></a>
+                      <div class="portfolio-overlay-details">
+                        <p class="text-primary text-8"><i class="fas fa-file-alt"></i></p>
+                        <h5 class="text-white text-5">Detailed Project 1</h5>
+                        <span class="text-light">Category</span> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 mockups" data-wow-delay="0.2s" style="position: absolute; left: 439.983px; top: 0px; transition-property: opacity, transform; transition-duration: 0.4s; transition-delay: 0ms; transform: translate3d(0px, 0px, 0px);">
+                <div class="portfolio-box">
+                  <div class="portfolio-img"> <img class="img-fluid d-block" src="img/proyectos/kotaixProyecto.png" alt="">
+                    <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/projects/project-2.jpg"></a>
+                      <div class="portfolio-overlay-details">
+                        <p class="text-primary text-8"><i class="fas fa-image"></i></p>
+                        <h5 class="text-white text-5">Mockups Design 1</h5>
+                        <span class="text-light">Category</span> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 youtube" data-wow-delay="0.3s" style="position: absolute; left: 879.966px; top: 0px;">
+                <div class="portfolio-box">
+                  <div class="portfolio-img"> <img class="img-fluid d-block" src="img/proyectos/drupal.localhost.png" alt="">
+                    <div class="portfolio-overlay"> <a class="popup-youtube stretched-link" href="https://www.youtube.com/watch?v=PMNnEEEacCg"></a>
+                      <div class="portfolio-overlay-details">
+                        <p class="text-primary text-8"><i class="fas fa-video"></i></p>
+                        <h5 class="text-white text-5">YouTube Video</h5>
+                        <span class="text-light">Category</span> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 vimeo" style="position: absolute; left: 0px; top: 470.117px; transition-property: opacity, transform; transition-duration: 0.4s; transition-delay: 0ms; transform: translate3d(0px, 0px, 0px);">
+                <div class="portfolio-box">
+                  <div class="portfolio-img"> <img class="img-fluid d-block" src="img/proyectos/trasa.com.ar.png" alt="">
+                    <div class="portfolio-overlay"> <a class="popup-vimeo stretched-link" href="https://vimeo.com/259411563"></a>
+                      <div class="portfolio-overlay-details">
+                        <p class="text-primary text-8"><i class="fas fa-video"></i></p>
+                        <h5 class="text-white text-5">Vimeo Video</h5>
+                        <span class="text-light">Category</span> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 detailed" data-wow-delay="0.2s" style="position: absolute; left: 439.983px; top: 470.117px; transition-property: opacity, transform; transition-duration: 0.4s; transition-delay: 0ms; transform: translate3d(0px, 0px, 0px);">
+                <div class="portfolio-box">
+                  <div class="portfolio-img"> <img class="img-fluid d-block" src="img/proyectos/19640.site.png" alt="">
+                    <div class="portfolio-overlay"> <a class="popup-ajax stretched-link" href="ajax/portfolio-ajax-project-2.html"></a>
+                      <div class="portfolio-overlay-details">
+                        <p class="text-primary text-8"><i class="fas fa-file-alt"></i></p>
+                        <h5 class="text-white text-5">Detailed Project 2</h5>
+                        <span class="text-light">Category</span> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4 mockups" data-wow-delay="0.3s" style="position: absolute; left: 879.966px; top: 470.117px;">
+                <div class="portfolio-box">
+                  <div class="portfolio-img"> <img class="img-fluid d-block" src="img/proyectos/19640.site.png" alt="">
+                    <div class="portfolio-overlay"> <a class="popup-img stretched-link" href="images/projects/project-6.jpg"></a>
+                      <div class="portfolio-overlay-details">
+                        <p class="text-primary text-8"><i class="fas fa-image"></i></p>
+                        <h5 class="text-white text-5">Mockups Design 2</h5>
+                        <span class="text-light">Category</span> </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Portfolio end --> 
+      
+      <!-- Call to Action
+      ============================================= -->
+      <section>
+        <div class="hero-wrap">
+          <div class="hero-mask opacity-8 bg-dark"></div>
+          <div class="hero-bg parallax" style="background-image: url(&quot;https://harnishdesign.net/demo/html/callum/images/intro-bg-2.jpg&quot;); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center 2000.65px;"></div>
+          <div class="hero-content section">
+            <div class="container text-center py-5 wow fadeInUp" style="visibility: show; animation-name: none;">
+              <h2 class="text-10 fw-600 text-white mb-5">Le interesa trabajar juntos?</h2>
+              <a href="#contact" class="btn btn-primary rounded-0 smooth-scroll wow rubberBand" data-wow-delay="1s" style="visibility: show; animation-delay: 1s; animation-name: none;">Contratar!</a> </div>
+          </div>
+        </div>
+      </section>      
+      <!-- Contact Me
+      ============================================= -->
+      <section id="contact" class="section bg-primary">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 text-center text-lg-start wow fadeInUp" style="visibility: show; animation-name: none;">
+              <h2 class="text-10 fw-600 mb-5">Mantengamos el contacto</h2>
+              <p class="text-5 mb-5">Disfruto de participar en proyectos nuevos. por favor, no dude en contarme su proyecto para juntos poder darle un impulso.</p>
+              <h3 class="text-5 fw-600">Dirección postal:</h3>
+              <address class="text-4">
+              722 Punta María, Río Grande.
+              Tierra del Fuego, ARG.
+              </address>
+              <h3 class="text-5 fw-600">Llamadas:</h3>
+              <p class="text-4">(+54) 2964 555 279</p>
+              <ul class="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
+                <li class="social-icons-twitter"><a data-bs-toggle="tooltip" href="https://twitter.com/nippur750" target="_blank" title="" data-bs-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                <li class="social-icons-facebook"><a data-bs-toggle="tooltip" href="http://www.facebook.com/nippur750" target="_blank" title="" data-bs-original-title="Facebook"><i class="fab fa-facebook"></i></a></li>
+                <li class="social-icons-instagram"><a data-bs-toggle="tooltip" href="http://www.instagram.com/nippur750" target="_blank" title="" data-bs-original-title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                <li class="social-icons-github"><a data-bs-toggle="tooltip" href="http://www.github.com/nippur750" target="_blank" title="" data-bs-original-title="GitHub"><i class="fab fa-github"></i></a></li>                
+              </ul>
+            </div>
+            <div class="col-lg-6 ms-auto mt-5 mt-lg-0 wow fadeInUp" data-wow-delay="0.3s" style="visibility: show; animation-delay: 0.3s; animation-name: none;">
+              <h2 class="text-10 fw-600 text-center text-lg-start mb-5">Necesita presupuestar un proyecto?</h2>
+              <!-- Contact Form -->
+              <form id="contact-form" class="form-border" action="php/mail.php" method="post">
+                <div class="row g-4">
+                  <div class="col-12">
+                    <label class="form-label" for="name">Su nombre:</label>
+                    <input id="name" name="name" type="text" class="form-control py-1" required="">
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label" for="email">Dirección de correo:</label>
+                    <input id="email" name="email" type="email" class="form-control py-1" required="">
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label" for="form-message">En que puedo ayudarle?:</label>
+                    <textarea id="form-message" name="form-message" class="form-control py-1" rows="4" required=""></textarea>
+                  </div>
+                  <div class="col-12 text-center text-lg-start">
+                    <button id="submit-btn" class="btn btn-dark rounded-0" type="submit">Enviar <span class="ms-3"><i class="fas fa-arrow-right"></i></span></button>
+                  </div>
+                </div>
+              </form>
+              <!-- Contact Form end --> 
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Me end --> 
+      
+    </div>
+
+    <footer id="footer" class="section bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center text-lg-start wow fadeInUp" style="visibility: show; animation-name: none;">
+            <p class="mb-2 mb-lg-0">Creative commons 2022 <a class="fw-600" href="www.marcosgarcia.com.ar">Marcos</a>. GNU.</p>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" style="visibility: show; animation-name: none;">
+            <p class="mb-0 text-center text-lg-end">Diseñador por: <a class="fw-600" href="http://www.19640.site/">19640.site</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
