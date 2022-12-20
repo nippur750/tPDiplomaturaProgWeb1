@@ -457,18 +457,13 @@ a {
   font-size: 32px !important;
   font-size: 2rem !important;
 }
-.text-5 {
-  font-size: 21px !important;
-  font-size: 1.3125rem !important;
-}
+
 .text-5 {
   font-size: 21px !important;
   font-size: 1.3125rem !important;
 }
 .text-light {
   color: #dee3e4 !important;
-}
-.text-light {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-light-rgb),var(--bs-text-opacity)) !important;
 }
